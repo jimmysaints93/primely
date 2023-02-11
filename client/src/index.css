@@ -6,12 +6,34 @@
   .sidebar-icon {
     @apply relative flex items-center justify-center
       h-12 w-12 mt-2 mb-2 mx-auto shadow-lg
-      bg-gray-800 text-green-500
-      hover:bg-green-600 hover:text-white
+      bg-yellow-500 text-red-900
+      hover:bg-white hover:text-yellow-500
       rounded-3xl hover:rounded-xl
       transition-all duration-100 ease-linear;
   }
 }
+
+/* Color Theme Swatches in Hex */
+.k00213229FruitBowl-1-hex { color: #D9B11B; }
+.k00213229FruitBowl-2-hex { color: #A88B79; }
+.k00213229FruitBowl-3-hex { color: #EFCCB6; }
+.k00213229FruitBowl-4-hex { color: #8F0403; }
+.k00213229FruitBowl-5-hex { color: #570C0D; }
+
+/* Color Theme Swatches in RGBA */
+.k00213229FruitBowl-1-rgba { color: rgba(216, 177, 26, 1); }
+.k00213229FruitBowl-2-rgba { color: rgba(168, 138, 121, 1); }
+.k00213229FruitBowl-3-rgba { color: rgba(239, 204, 182, 1); }
+.k00213229FruitBowl-4-rgba { color: rgba(142, 4, 2, 1); }
+.k00213229FruitBowl-5-rgba { color: rgba(86, 11, 13, 1); }
+
+/* Color Theme Swatches in HSLA */
+.k00213229FruitBowl-1-hsla { color: hsla(0, 77, 47, 1); }
+.k00213229FruitBowl-2-hsla { color: hsla(0, 21, 56, 1); }
+.k00213229FruitBowl-3-hsla { color: hsla(0, 64, 82, 1); }
+.k00213229FruitBowl-4-hsla { color: hsla(0, 95, 28, 1); }
+.k00213229FruitBowl-5-hsla { color: hsla(0, 75, 19, 1); }
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -81,4 +103,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+#root {
+  text-align: left;
+}
+
+body {
+  display: flex;
 }
